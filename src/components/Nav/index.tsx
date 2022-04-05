@@ -19,12 +19,14 @@ function Nav() {
       </header>
       <nav css={nav}>
         <div css={buttonWrapper}>
-          <span css={title}>introduction</span>
+          <span css={title}>Introduction</span>
           <NavLink category="Home" path="/" />
           <span css={title}>Collection</span>
           <NavLink category="IT" path="/all/It" />
           <NavLink category="미디어컨텐츠" path="/all/Media" />
           <NavLink category="SW" path="/all/Sw" />
+          <span css={title}>Join us</span>
+          <NavLink category="Signin" path="/signin" />
         </div>
       </nav>
     </section>
